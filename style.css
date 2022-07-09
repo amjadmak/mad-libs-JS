@@ -1,0 +1,97 @@
+#ssmadLibsPreview, .editableFields, .review{
+    text-align: center;
+    font-size: 100%;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+     font-size: 70px !important;
+    padding-top: 30px;
+}
+
+/**
+ kemal part
+ */
+
+#body {
+    background: url(./Background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hovermouse:hover{
+    background-color:rgba(0, 0, 255, 0.225);
+    box-shadow: 10px 10px 5px 0px rgba(205,214,219,0.25);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(205,214,219,0.25);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(205,214,219,0.25);
+
+}
+
+#madLibsEdit{
+    text-align: center;
+    font-size: 150%;
+    border: 1px solid blue;
+    border-radius: 25px;
+    margin: 20px 100px 15px 30px;
+    padding: 20px 20px 20px 20px;
+}  
+
+#ssmadLibsPreview{
+    text-align: center;
+    font-size: 150%;
+    border: 1px solid blue;
+    border-radius: 25px;
+    margin: 20px 100px 15px 30px;
+    padding: 20px 20px 20px 20px;
+}  
+/**
+ dark mode
+ */
+
+[data-theme="dark"] {
+    background: rgba(17, 17, 17, 0.832) !important;
+    background-color: rgba(17, 17, 17, 0.832) !important;
+    color: rgb(255, 255, 255);
+  }
+
+
+
+[data-theme="dark"] #button{
+        background-color: rgba(17, 17, 17, 0.832) !important;
+        color: rgb(255, 255, 255);
+    }
+  
+
+[data-theme="dark"] #navbar  {
+        background-color: #000 !important;
+        color: rgb(255, 255, 255)!important;
+    }
+
+[data-theme="dark"] #madLibsEdit {
+    background-color: #000 !important;
+    color: rgb(255, 255, 255)!important;
+  }
+
+[data-theme="dark"] #ssmadLibsPreview {
+    background-color: #000 !important;
+  }
+
+
+  
+
+
+  
+
+  
